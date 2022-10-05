@@ -1,0 +1,11 @@
+Sqlshow databases;
+create database praveen ;
+show databases;
+use praveen;
+create table (name char(50), age int, phone_no int) 
+describe praveen;
+insert into praveen values('Raitan', 20, 13567) ;
+insert into praveen values('sanjay', 23, 98763) ;
+select*from praveen;
+alter table praveen add gender char(50) ;
+update karthi set name= 'kishore' where age = 33;
